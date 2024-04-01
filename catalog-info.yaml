@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-example-grpc"
+  description: 
+  annotations:
+    github.com/project-slug: shujaahmedi2l/nodejs-example-grpc
+    argocd/app-name: nodejs-example-grpc
+  links:
+    - url: https://nodejs-example-grpc.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: group:guests
+  lifecycle: experimental
